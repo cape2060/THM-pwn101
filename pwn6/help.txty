@@ -1,0 +1,6 @@
+address start with 7f is address of libc 
+address start with 5 is addres of pie
+address end with 00 is address of canary
+
+
+###for this pwn no need of indo given up flag is just inside the given binary

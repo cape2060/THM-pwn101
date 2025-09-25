@@ -1,0 +1,5 @@
+here elf.bss() make next 8 byte to writable function so that we can eritr '/bin/sh in that ' if elf.bss is not done 
+then binary treat '/bin/sh' as an integer and our syscall does not execute /bin/sh and does not give shell 
+
+59=exec siscall which need 3 argument rdi need which command to execute and remaining 2 null 
+ 
